@@ -55,7 +55,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hWI-JF-y45"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" id="J1K-du-hFB"/>
+                    <tabBarItem key="tabBarItem" title="Dad" image="emoticon-smile-7.png" id="J1K-du-hFB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="backButton" destination="cM9-PP-tVM" id="Gf3-4X-OmJ"/>
@@ -83,16 +83,6 @@
                                     <action selector="nextBtnPressed:" destination="g80-Kp-DQa" eventType="touchUpInside" id="8xz-Bd-RLU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why wouldn’t the shrimp share his treasure?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81N-Wd-Fc2">
-                                <rect key="frame" x="12.5" y="283.5" width="350" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="eSv-bt-zUo"/>
-                                    <constraint firstAttribute="width" constant="350" id="sWT-1p-kIJ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnx-gN-PCr">
                                 <rect key="frame" x="25" y="25" width="56" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -101,22 +91,29 @@
                                     <action selector="backBtnPressed:" destination="g80-Kp-DQa" eventType="touchUpInside" id="l12-C5-Atn"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RlM-7p-sxF">
+                                <rect key="frame" x="37.5" y="158.5" width="300" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="ByB-L0-umu"/>
+                                    <constraint firstAttribute="width" constant="300" id="hWu-FO-jli"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="RlM-7p-sxF" firstAttribute="centerX" secondItem="mmS-lu-1tb" secondAttribute="centerX" id="FZ9-rv-CXG"/>
+                            <constraint firstItem="RlM-7p-sxF" firstAttribute="centerY" secondItem="mmS-lu-1tb" secondAttribute="centerY" id="QHE-ea-1fb"/>
                             <constraint firstItem="g3s-cA-G7r" firstAttribute="bottom" secondItem="0I2-GH-jcX" secondAttribute="bottom" constant="30" id="WZL-WH-KgK"/>
-                            <constraint firstItem="81N-Wd-Fc2" firstAttribute="centerX" secondItem="mmS-lu-1tb" secondAttribute="centerX" id="YNW-h3-uCR"/>
                             <constraint firstItem="g3s-cA-G7r" firstAttribute="trailing" secondItem="0I2-GH-jcX" secondAttribute="trailing" constant="20" id="dFK-ee-mh2"/>
                             <constraint firstItem="Pnx-gN-PCr" firstAttribute="top" secondItem="g3s-cA-G7r" secondAttribute="top" constant="5" id="n9s-mN-pMj"/>
                             <constraint firstItem="Pnx-gN-PCr" firstAttribute="leading" secondItem="g3s-cA-G7r" secondAttribute="leading" constant="25" id="nhJ-IR-fQz"/>
-                            <constraint firstItem="81N-Wd-Fc2" firstAttribute="centerY" secondItem="mmS-lu-1tb" secondAttribute="centerY" id="y6O-am-PGx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="g3s-cA-G7r"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" id="lmB-Ec-r75"/>
+                    <tabBarItem key="tabBarItem" title="Pun" image="animal-element-7.png" id="lmB-Ec-r75"/>
                     <connections>
                         <outlet property="backButton" destination="Pnx-gN-PCr" id="8ge-OC-a8v"/>
-                        <outlet property="label" destination="81N-Wd-Fc2" id="3Ns-7e-xPD"/>
+                        <outlet property="imageView" destination="RlM-7p-sxF" id="5u6-7j-3ZF"/>
                         <outlet property="nextButton" destination="0I2-GH-jcX" id="Ppd-0q-ygy"/>
                     </connections>
                 </viewController>
@@ -166,7 +163,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0s9-fd-yIR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" id="CVy-6w-ugB"/>
+                    <tabBarItem key="tabBarItem" title="Good" image="bright-7.png" id="CVy-6w-ugB"/>
                     <connections>
                         <outlet property="backButton" destination="f0m-35-F2x" id="sSy-Dy-SbH"/>
                         <outlet property="label" destination="8EZ-Vu-wao" id="dB0-fT-5Lf"/>
@@ -197,4 +194,10 @@
             <point key="canvasLocation" x="-327" y="-178"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.jpg" width="736" height="710"/>
+        <image name="animal-element-7.png" width="30" height="30"/>
+        <image name="bright-7.png" width="29" height="30"/>
+        <image name="emoticon-smile-7.png" width="30" height="30"/>
+    </resources>
 </document>

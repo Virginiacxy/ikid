@@ -9,11 +9,15 @@
 import UIKit
 
 class PunViewController: UIViewController {
+    @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var backButton: UIButton!
-    @IBOutlet weak var label: UILabel!
     var index: Int = 0
     @IBOutlet weak var nextButton: UIButton!
+    var image1: UIImage = UIImage(named: "1.jpg")!
+    var image2: UIImage = UIImage(named: "2.png")!
+    var image3: UIImage = UIImage(named: "3.jpg")!
+    var image4: UIImage = UIImage(named: "4.jpg")!
     
     @IBAction func backBtnPressed(_ sender: UIButton) {
         index = index - 1
@@ -28,11 +32,21 @@ class PunViewController: UIViewController {
     
     private func switchViews() {
         if index == 0 {
-            self.label.text = "Why wouldn’t the shrimp share his treasure?"
+            imageView.image = image1
+//            self.label.text = "Why wouldn’t the shrimp share his treasure?"
             backButton.isHidden = true
             nextButton.isHidden = false
         } else if index == 1 {
-            self.label.text = "Because he was a little shellfish."
+            imageView.image = image2
+//            self.label.text = "Because he was a little shellfish."
+            nextButton.isHidden = false
+            backButton.isHidden = false
+        } else if index == 2 {
+            imageView.image = image3
+            nextButton.isHidden = false
+            backButton.isHidden = false
+        } else if index == 3 {
+            imageView.image = image4
             nextButton.isHidden = true
             backButton.isHidden = false
         }
