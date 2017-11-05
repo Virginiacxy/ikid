@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB09C6F31FAEDC0F001432D4 /* heart-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB09C6EE1FAEDC0E001432D4 /* heart-7.png */; };
+		CB09C6F41FAEDC0F001432D4 /* bright-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB09C6EF1FAEDC0E001432D4 /* bright-7.png */; };
+		CB09C6F51FAEDC0F001432D4 /* star-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB09C6F01FAEDC0F001432D4 /* star-7.png */; };
+		CB09C6F61FAEDC0F001432D4 /* emoticon-smile-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB09C6F11FAEDC0F001432D4 /* emoticon-smile-7.png */; };
+		CB09C6F71FAEDC0F001432D4 /* animal-element-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB09C6F21FAEDC0F001432D4 /* animal-element-7.png */; };
 		CB1FBCDC1FAE9A7C003CFBDB /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FBCDB1FAE9A7C003CFBDB /* GoodViewController.swift */; };
 		CB1FBCE21FAEA9FE003CFBDB /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FBCE11FAEA9FE003CFBDB /* PunViewController.swift */; };
 		CB1FBCE41FAEAA67003CFBDB /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FBCE31FAEAA67003CFBDB /* DadViewController.swift */; };
@@ -14,11 +19,6 @@
 		CB2DFFDD1FAED4F3009867BB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFDA1FAED4F2009867BB /* 3.jpg */; };
 		CB2DFFDE1FAED4F3009867BB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFDB1FAED4F2009867BB /* 4.jpg */; };
 		CB2DFFE01FAED511009867BB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFDF1FAED511009867BB /* 1.jpg */; };
-		CB2DFFE61FAED98B009867BB /* star-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFE11FAED98B009867BB /* star-7.png */; };
-		CB2DFFE71FAED98B009867BB /* emoticon-smile-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFE21FAED98B009867BB /* emoticon-smile-7.png */; };
-		CB2DFFE81FAED98B009867BB /* animal-element-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFE31FAED98B009867BB /* animal-element-7.png */; };
-		CB2DFFE91FAED98B009867BB /* bright-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFE41FAED98B009867BB /* bright-7.png */; };
-		CB2DFFEA1FAED98B009867BB /* heart-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2DFFE51FAED98B009867BB /* heart-7.png */; };
 		CB6DFB8F1FAA35E800A09580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DFB8E1FAA35E800A09580 /* AppDelegate.swift */; };
 		CB6DFB911FAA35E800A09580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DFB901FAA35E800A09580 /* ViewController.swift */; };
 		CB6DFB941FAA35E800A09580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DFB921FAA35E800A09580 /* Main.storyboard */; };
@@ -27,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB09C6EE1FAEDC0E001432D4 /* heart-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-7.png"; sourceTree = SOURCE_ROOT; };
+		CB09C6EF1FAEDC0E001432D4 /* bright-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bright-7.png"; sourceTree = SOURCE_ROOT; };
+		CB09C6F01FAEDC0F001432D4 /* star-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-7.png"; sourceTree = SOURCE_ROOT; };
+		CB09C6F11FAEDC0F001432D4 /* emoticon-smile-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoticon-smile-7.png"; sourceTree = SOURCE_ROOT; };
+		CB09C6F21FAEDC0F001432D4 /* animal-element-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-element-7.png"; sourceTree = SOURCE_ROOT; };
 		CB1FBCDB1FAE9A7C003CFBDB /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
 		CB1FBCE11FAEA9FE003CFBDB /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
 		CB1FBCE31FAEAA67003CFBDB /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
@@ -34,11 +39,6 @@
 		CB2DFFDA1FAED4F2009867BB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = SOURCE_ROOT; };
 		CB2DFFDB1FAED4F2009867BB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = SOURCE_ROOT; };
 		CB2DFFDF1FAED511009867BB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = SOURCE_ROOT; };
-		CB2DFFE11FAED98B009867BB /* star-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-7.png"; path = "../../../../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/star-7.png"; sourceTree = "<group>"; };
-		CB2DFFE21FAED98B009867BB /* emoticon-smile-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emoticon-smile-7.png"; path = "../../../../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/emoticon-smile-7.png"; sourceTree = "<group>"; };
-		CB2DFFE31FAED98B009867BB /* animal-element-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "animal-element-7.png"; path = "../../../../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/animal-element-7.png"; sourceTree = "<group>"; };
-		CB2DFFE41FAED98B009867BB /* bright-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bright-7.png"; path = "../../../../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/bright-7.png"; sourceTree = "<group>"; };
-		CB2DFFE51FAED98B009867BB /* heart-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart-7.png"; path = "../../../../../Downloads/iconbeast-lite-200/iconbeast lite 200 - png/heart-7.png"; sourceTree = "<group>"; };
 		CB6DFB8B1FAA35E800A09580 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6DFB8E1FAA35E800A09580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6DFB901FAA35E800A09580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 		CB2DFFD81FAED463009867BB /* images */ = {
 			isa = PBXGroup;
 			children = (
-				CB2DFFE31FAED98B009867BB /* animal-element-7.png */,
-				CB2DFFE41FAED98B009867BB /* bright-7.png */,
-				CB2DFFE21FAED98B009867BB /* emoticon-smile-7.png */,
-				CB2DFFE51FAED98B009867BB /* heart-7.png */,
-				CB2DFFE11FAED98B009867BB /* star-7.png */,
+				CB09C6F21FAEDC0F001432D4 /* animal-element-7.png */,
+				CB09C6EF1FAEDC0E001432D4 /* bright-7.png */,
+				CB09C6F11FAEDC0F001432D4 /* emoticon-smile-7.png */,
+				CB09C6EE1FAEDC0E001432D4 /* heart-7.png */,
+				CB09C6F01FAEDC0F001432D4 /* star-7.png */,
 				CB2DFFDF1FAED511009867BB /* 1.jpg */,
 				CB2DFFD91FAED4F2009867BB /* 2.png */,
 				CB2DFFDA1FAED4F2009867BB /* 3.jpg */,
@@ -167,18 +167,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB09C6F61FAEDC0F001432D4 /* emoticon-smile-7.png in Resources */,
+				CB09C6F31FAEDC0F001432D4 /* heart-7.png in Resources */,
 				CB2DFFDE1FAED4F3009867BB /* 4.jpg in Resources */,
 				CB2DFFDD1FAED4F3009867BB /* 3.jpg in Resources */,
 				CB6DFB991FAA35E800A09580 /* LaunchScreen.storyboard in Resources */,
-				CB2DFFE61FAED98B009867BB /* star-7.png in Resources */,
-				CB2DFFE81FAED98B009867BB /* animal-element-7.png in Resources */,
 				CB6DFB961FAA35E800A09580 /* Assets.xcassets in Resources */,
-				CB2DFFEA1FAED98B009867BB /* heart-7.png in Resources */,
-				CB2DFFE71FAED98B009867BB /* emoticon-smile-7.png in Resources */,
+				CB09C6F41FAEDC0F001432D4 /* bright-7.png in Resources */,
 				CB2DFFDC1FAED4F3009867BB /* 2.png in Resources */,
+				CB09C6F71FAEDC0F001432D4 /* animal-element-7.png in Resources */,
 				CB6DFB941FAA35E800A09580 /* Main.storyboard in Resources */,
-				CB2DFFE91FAED98B009867BB /* bright-7.png in Resources */,
 				CB2DFFE01FAED511009867BB /* 1.jpg in Resources */,
+				CB09C6F51FAEDC0F001432D4 /* star-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
